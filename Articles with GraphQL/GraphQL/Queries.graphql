@@ -1,0 +1,16 @@
+query GetPost ($id: ID!) {
+	post(id: $id) {
+		id
+		title
+		body
+	}
+}
+
+query GetPosts {
+	posts {
+		data {
+			id
+			title
+		}
+	}
+}

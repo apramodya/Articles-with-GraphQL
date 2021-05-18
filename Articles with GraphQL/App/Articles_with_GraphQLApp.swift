@@ -11,7 +11,7 @@ import SwiftUI
 struct Articles_with_GraphQLApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
